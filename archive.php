@@ -14,13 +14,15 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 
+		  <?php  if ( !is_category() ) : ?>
 			<header class="page-header">
 				<h1 class="page-title">
+		 <?php endif; ?>
 					<?php
-						if ( is_category() ) :
-							single_cat_title();
+/* if ( is_category() ) :
+single_cat_title();*/
 
-						elseif ( is_tag() ) :
+						if ( is_tag() ) :
 							single_tag_title();
 
 						elseif ( is_author() ) :
@@ -62,8 +64,8 @@ get_header(); ?>
 						elseif ( is_tax( 'post_format', 'post-format-chat' ) ) :
 							_e( 'Chats', 'sketch' );
 
-						else :
-							_e( 'Archives', 'sketch' );
+/* else :
+_e( 'Archives', 'sketch' ); */
 
 						endif;
 					?>

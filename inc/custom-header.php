@@ -15,7 +15,7 @@ function sketch_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'sketch_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '333333',
-		'width'                  => 1092,
+		'width'                  => 1000,
 		'height'                 => 400,
 		'flex-height'            => true,
 		'wp-head-callback'       => 'sketch_header_style',
@@ -133,7 +133,7 @@ function sketch_admin_header_style() {
 			display: block;
 			margin: 0 auto;
 			margin-bottom: 27px;
-			max-width: 1092px;
+			max-width: 1000px;
 			height: auto;
 		}
 	</style>

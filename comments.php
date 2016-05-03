@@ -18,6 +18,8 @@ if ( post_password_required() ) {
 }
 ?>
 
+
+<!--
 <div id="comments" class="comments-area">
 
 	<?php // You can start editing here -- including this comment! ?>
@@ -65,6 +67,6 @@ if ( post_password_required() ) {
 		<p class="no-comments"><?php _e( 'Comments are closed.', 'sketch' ); ?></p>
 	<?php endif; ?>
 
-	<?php comment_form(); ?>
+<?php // comment_form(); ?>
 
-</div><!-- #comments -->
+</div> --><!-- #comments -->

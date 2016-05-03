@@ -1,0 +1,90 @@
+/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/
+.front-section-title {
+	margin: 0;
+	margin-bottom: 10px !important;
+	background-color: #e7e7e7;
+	padding-bottom: 75px;
+	padding-top: 50px;
+	overflow: true;
+	padding-left: 30px;
+	color: #777777;
+}
+
+.front-section-title-subtitle {
+	margin: 0;
+	margin-bottom: 10px !important;
+	background-color: #e7e7e7;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	overflow: true;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #777777;
+}
+
+.separation {
+	margin-bottom: 50px !important;
+}
+
+.gallery-margin {
+	margin: 20px;
+}
+
+.tiled-gallery-item a img {
+/* margin: 10px !important; */
+}
+
+.type-page {
+	margin-bottom: 10px;
+	padding-bottom: 0;
+}
+
+.site-header {
+	padding: 0 !important;
+}
+
+.site-title {
+	display: none;
+}
+
+.psubtitle {
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 50em) {
+	.front-section-title {
+		margin: 0;
+		margin-bottom: 10px !important;
+		background-color: #e7e7e7;
+		padding-bottom: 30px;
+		padding-top: 25px;
+		overflow: true;
+		padding-left: 30px;
+		color: #777777;
+	}
+	
+	.front-section-title-subtitle {
+		margin: 0;
+		margin-bottom: 10px !important;
+		background-color: #e7e7e7;
+		padding-bottom: 15px;
+		padding-top: 15px;
+		overflow: true;
+		padding-left: 15px;
+		padding-right: 15px;
+		color: #777777;
+	}
+	
+	.front-section-title-subtitle h1 {
+		margin-top: 10px !important;
+		margin-bottom: 10px !important;
+	}
+	
+	.separation {
+		margin-bottom: 25px !important;
+	}
+}

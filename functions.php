@@ -19,7 +19,7 @@ if ( ! function_exists( 'sketch_content_width' ) ) :
 		global $content_width;
 
 		if ( is_page_template( 'fullwidth-page.php' ) || ! is_active_sidebar( 'sidebar-1' ) ) {
-			$content_width = 1091;
+			$content_width = 1000;
 		}
 	}
 
@@ -58,7 +58,7 @@ function sketch_setup() {
 	add_image_size( 'sketch-portrait', '800', '1067', true );
 	add_image_size( 'sketch-square', '800', '800', true );
 
-	add_image_size( 'sketch-featured', '1092', '400', true );
+	add_image_size( 'sketch-featured', '1000', '600', true );
 	add_image_size( 'sketch-site-logo', '300', '300' );
 
 	// This theme uses wp_nav_menu() in one location.

@@ -26,6 +26,7 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
+	  <!--
 		<?php
 			/* translators: used between list items, there is a space after the comma */
 			$categories_list = get_the_category_list( __( ', ', 'sketch' ) );
@@ -43,5 +44,6 @@
 			<?php echo $tags_list; ?>
 		</span>
 		<?php endif; // End if $tags_list ?>
+        -->
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->

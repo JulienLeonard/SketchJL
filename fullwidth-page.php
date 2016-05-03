@@ -7,7 +7,7 @@
 
 // Access global variable directly to set content_width
 if ( isset( $GLOBALS['content_width'] ) )
-	$GLOBALS['content_width'] = 1091;
+	$GLOBALS['content_width'] = 1000;
 
 get_header(); ?>
 

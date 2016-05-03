@@ -515,7 +515,8 @@ html {
 
 /* =Global */
 body {
-  background: #eeeeee;
+  /* background: #eeeeee; */
+  background: #e7e7e7;
   color: #333333;
   font-family: Lato, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -707,11 +708,11 @@ input[type="reset"]:active,
 input[type="submit"]:hover,
 input[type="submit"]:focus,
 input[type="submit"]:active {
-  border-color: #f68060;
+  border-color: #ff0000;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  color: #f68060;
+  color: #ff0000;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -848,7 +849,7 @@ img {
 
 /* Links */
 a {
-  color: #f68060;
+  color: #ff0000;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -856,10 +857,10 @@ a {
   text-decoration: none;
 }
 a:visited {
-  color: #f68060;
+  color: #ff0000;
 }
 a:hover, a:focus, a:active {
-  color: #f68060;
+  color: #ff0000;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -896,7 +897,7 @@ a:hover, a:focus, a:active {
   text-decoration: none;
 }
 .site-footer a:hover {
-  color: #f68060;
+  color: #ff0000;
 }
 .site-footer .sep {
   clear: both;
@@ -914,7 +915,7 @@ a:hover, a:focus, a:active {
 
 /* =Header */
 .site-header {
-  border-bottom: 3px solid #eeeeee;
+  /* border-bottom: 3px solid #eeeeee; */
   margin: 0 0 27px;
   padding: 0 0 24px;
   position: relative;
@@ -992,7 +993,7 @@ a:hover, a:focus, a:active {
   position: relative;
 }
 .main-navigation li:hover > a {
-  color: #f68060;
+  color: #ff0000;
 }
 .main-navigation a {
   border-bottom: 1px solid #eeeeee;
@@ -1007,7 +1008,7 @@ a:hover, a:focus, a:active {
 
 .current_page_item a,
 .current-menu-item a {
-  color: #f68060;
+  color: #ff0000;
 }
 
 /* Small menu */
@@ -1031,8 +1032,8 @@ a:hover, a:focus, a:active {
 }
 
 .toggled .menu-toggle {
-  border-color: #f68060;
-  color: #f68060;
+  border-color: #ff0000;
+  color: #ff0000;
 }
 
 .main-navigation ul:first-child {
@@ -1051,7 +1052,7 @@ a:hover, a:focus, a:active {
 /* =Content */
 .hentry {
   border-bottom: 1px solid #eeeeee;
-  margin: 0 0 53px;
+  margin: 0 0 56px;
   padding: 0 0 27px;
   position: relative;
 }
@@ -1106,7 +1107,7 @@ a:hover, a:focus, a:active {
 .entry-footer a:hover,
 .entry-meta a:hover,
 .portfolio-entry-meta a:hover {
-  color: #f68060;
+  color: #ff0000;
 }
 
 .entry-title,
@@ -1124,7 +1125,7 @@ a:hover, a:focus, a:active {
 }
 .entry-title a:hover,
 .portfolio-entry-title a:hover {
-  color: #f68060;
+  color: #ff0000;
 }
 
 .sep {
@@ -1313,7 +1314,7 @@ body[class*="jetpack-portfolio"].archive .jetpack-portfolio:hover {
 .project-navigation-wrapper .jetpack-portfolio:hover a,
 .page-template-portfolio-template-php .jetpack-portfolio:hover a,
 body[class*="jetpack-portfolio"].archive .jetpack-portfolio:hover a {
-  color: #f68060;
+  color: #ff0000;
 }
 .page-template-portfolio-page-php .jetpack-portfolio:hover .edit-link a,
 .project-navigation-wrapper .jetpack-portfolio:hover .edit-link a,
@@ -1644,7 +1645,7 @@ object {
   color: #999999;
 }
 .comment-meta .comment-metadata a:hover {
-  color: #f68060;
+  color: #ff0000;
 }
 
 .comments-area .edit-link:before {
@@ -1659,7 +1660,7 @@ object {
 }
 
 .required {
-  color: #f68060;
+  color: #ff0000;
 }
 
 .comment-form-author,
@@ -1734,7 +1735,7 @@ object {
   margin-left: 24px;
 }
 .widget a {
-  color: #f68060;
+  color: #ff0000;
   text-decoration: none;
 }
 .widget a:hover, .widget a:active, .widget a:focus {
@@ -1773,7 +1774,7 @@ object {
   text-align: center;
 }
 #wp-calendar a {
-  color: #f68060;
+  color: #ff0000;
   text-decoration: none;
 }
 
@@ -1808,8 +1809,8 @@ object {
 .wp_widget_tag_cloud a:hover,
 .tags-links a:hover,
 .tagcloud a:hover {
-  border-color: #f68060;
-  color: #f68060;
+  border-color: #ff0000;
+  color: #ff0000;
 }
 
 /* =Jetpack */
@@ -1838,7 +1839,7 @@ object {
   color: #999999;
 }
 #infinite-footer .container a:hover {
-  color: #f68060;
+  color: #ff0000;
 }
 #infinite-footer .blog-info a,
 #infinite-footer .blog-credits {
@@ -1868,7 +1869,7 @@ object {
   background: white;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-  color: #f68060;
+  color: #ff0000;
   font-size: 0.8125em;
   line-height: 2.09231em;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1936,7 +1937,7 @@ div.sharedaddy div.sd-block {
   text-decoration: none;
 }
 .social-links ul a:hover:before {
-  background: #f68060;
+  background: #ff0000;
   text-decoration: none;
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
@@ -2045,7 +2046,8 @@ div.sharedaddy div.sd-block {
   padding-top: 36.6636% !important;
   position: relative;
   width: 100%;
-  height: 0;
+  /* height: 0; */
+  height: 100%;
 }
 .flexslider .entry-thumbnail img {
   border-radius: 5px;
@@ -2118,7 +2120,8 @@ div.sharedaddy div.sd-block {
 }
 
 .loading .flex-viewport-wrapper {
-  max-height: 400px;
+  /* max-height: 400px; */
+  max-height: 800px;
 }
 
 .flexslider .slides {
@@ -2184,12 +2187,23 @@ div.sharedaddy div.sd-block {
 	.jetpack-portfolio-shortcode .portfolio-entry {
 		width: 100% !important;
 	}
+	    .site-logo {
+  	height: 35px;
+	  }
+	  .has-site-logo .main-navigation {
+    height: 35px;
+}
+	  .site-header {
+  /* border-bottom: 3px solid #eeeeee; */
+  margin: 0 0 0px;
+	  }
 }
 @media screen and (min-width: 75em) {
   .site {
     margin: 27px auto;
-    max-width: 1200px;
+    max-width: 1108px;
     padding: 54px;
+    /* padding: 0px; */
   }
   .has-site-logo .site {
 	padding-top: 27px;
@@ -2418,6 +2432,7 @@ div.sharedaddy div.sd-block {
   .has-site-logo .site-title {
 	max-width: 60%;
   }
+\
 }
 /* This ensures most tablet-sized devices will see the toggle menu */
 @media screen and ( min-width: 1281px ) {
